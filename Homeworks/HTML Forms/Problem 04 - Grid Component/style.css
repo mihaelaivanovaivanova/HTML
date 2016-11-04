@@ -30,16 +30,18 @@ td, th {
 #PriceSearch{
     width: 75px;
 }
+
 .price{
     padding-right: 100px;
 }
+
 footer{
     vertical-align: center;
     width:941px;
     border-collapse: collapse;
-    height: 30px;
-    
+    height: 30px;    
 }
+
 .filter{
     background:url("./filter.gif") no-repeat center;
     height: 20px;
@@ -52,14 +54,17 @@ footer{
     padding-right: 10px;
     float:right;
 }
+
 #selected{
     border: solid orangered;
     border-radius: 5px;
     padding: 5px;
 }
+
 .pages{
     padding: 5px;
 }
+
 .BtnPages{
     display:inline-block;
     margin: 5px;;
