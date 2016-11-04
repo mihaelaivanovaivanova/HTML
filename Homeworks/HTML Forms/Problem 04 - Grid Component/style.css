@@ -34,9 +34,11 @@ td, th {
     padding-right: 100px;
 }
 footer{
-    display: block;
+    vertical-align: center;
     width:941px;
     border-collapse: collapse;
+    height: 30px;
+    
 }
 .filter{
     background:url("./filter.gif") no-repeat center;
@@ -49,6 +51,18 @@ footer{
 #showedItems{
     padding-right: 10px;
     float:right;
+}
+#selected{
+    border: solid orangered;
+    border-radius: 5px;
+    padding: 5px;
+}
+.pages{
+    padding: 5px;
+}
+.BtnPages{
+    display:inline-block;
+    margin: 5px;;
 }
 
 
