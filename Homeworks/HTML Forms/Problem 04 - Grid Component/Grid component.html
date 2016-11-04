@@ -13,34 +13,34 @@
         <tr>
             <th> ProductID</th>
             <th>Product name</th>
-            <th>Unit price</th>
+            <th class="price">Unit price</th>
             <th>Quantity per unit</th>
             <th>Units in stock</th>
             <th>Discontinued</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class ="search">
             <td>
-                <input type = "text"/>
+                <input type = "text" id="IdSearch"/>
             </td>
             <td>
-                <input type = "text"/>
+                <input type = "text" id="NameSearch"/>
             </td>
             <td>
-                <input type = "text"/>
-                <button></button>
+                <input type = "text" id="PriceSearch"/>
+                <button class ="filter"></button>
             </td>
             <td>
-                <input type = "text"/>
+                <input type = "text" id="UnitQuantitySearch"/>
             </td>
             <td>
-                <input type = "text"/>
-                <button></button>
+                <input type = "text" id="StockSearch"/>
+                <button class ="filter"></button>
             </td>
             <td>
                 <input type="checkbox"/>
-                <button></button>
+                <button class ="filter"></button>
             </td>
         </tr>
         <tr>
@@ -146,8 +146,8 @@
     </tbody>
   </table>
   <footer>
-    <button></button>
-    <button></button>
+    <button disabled>&#171</button>
+    <button disabled>&#x8B</button>
     <span>1</span>
     <span>2</span>
     <span>3</span>      
@@ -159,15 +159,15 @@
     <span>9</span>      
     <span>10</span>      
     <span>...</span>      
-    <button></button>
-    <button></button>
+    <button disabled>&#x3E</button>
+    <button disabled> &#xBB</button>
     <span>Page size</span>
     <select size="count">
         <option value="value1" selected="selected">
             10
         </option>
     </select>
-    <span>335104 items in 33511 pages</span>
+    <span id="showedItems">335104 items in 33511 pages</span>
   </footer>
 </body>
 </html>
